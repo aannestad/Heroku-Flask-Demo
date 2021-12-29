@@ -12,7 +12,7 @@ def favicon():
 @app.route('/')
 @app.route('/home')
 def home():
-    return "Hello World"
+    return "Here comes my digit classifier ML app"
 
 if __name__ == "__main__":
     app.secret_key = 'ItIsASecret'
